@@ -1,6 +1,6 @@
 package com.azhe.init.controller;
 
-import com.azhe.pc_menu.init.service.IService;
+import com.azhe.init.service.IService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +14,6 @@ import java.util.Map;
  * @date 2022/1/8 10:17 上午
  * @since V2.0.0
  */
-@RestController
 @RequestMapping("/init")
 public class InitController {
 
